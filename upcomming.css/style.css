@@ -45,13 +45,18 @@
 
 /* ------Middle start----- */
 .upcomming {
-    background-color: bisque;
+    background-color: red;
     padding: 10px;
     border-radius: 5px;
-    text-decoration: none;
+
     margin-top: 20px;
     justify-content: center;
     text-align: center;
+
+}
+
+.upcomming a {
+    color: white;
 }
 
 .all-group {
@@ -70,6 +75,10 @@
     padding: 10px;
     border-radius: 5px;
     margin-top: 20px;
+}
+
+.blog a {
+    color: black;
 }
 
 .middle-left {

@@ -1,5 +1,5 @@
 .whole-section {
-    margin: 4%;
+    margin: 8%;
 }
 
 /* banner section start */
@@ -66,10 +66,14 @@
 .blog {
     justify-content: center;
     text-align: center;
-    background-color: peru;
+    background-color: red;
     padding: 10px;
     border-radius: 5px;
     margin-top: 20px;
+}
+
+.blog a {
+    color: white;
 }
 
 .middle-left {
@@ -106,12 +110,14 @@
     height: 360px;
 }
 
-.mega-pic-text {}
+.mega-pic-3 {
+    box-shadow: 1px 1px 3px gray;
+}
 
 .mega-pic-players {
     display: grid;
     grid-template-columns: repeat(3, 3fr);
-    gap: 4px;
+    gap: 10px;
     margin-left: 10px;
 }
 
@@ -139,13 +145,27 @@
     color: white;
     display: flex;
     justify-content: space-around;
-    margin-top: 5%;
 }
 
 .footer-text a {
     text-decoration: none;
 }
 
+.foot-icon {
+    background-color: white;
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 45%;
+    margin-top: 20px;
+    padding: 5px;
+
+
+}
+
 .pic-container {
     display: flex;
 }
+
+@media screen(max-width:576px) {}
